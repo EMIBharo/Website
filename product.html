@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="stylesheet" href="./css/index.css">
+    <link rel="stylesheet" href="./css/product.css" />
+  </head>
+  <body>
+    <header class="shadow" id="header">
+      <a href="" class="logo" id="#logo">EMIBharo</a>
+
+      <img src="./images/menu.png" alt="menu-icon" id="menu-icon">
+      <nav class="navbar text-color">
+        <a href="./about.html">About</a>
+        <a href="./product.html">Product</a>
+        <a href="./blogs.html">Blogs</a>
+        <a href="./DLP.html">Become a partner</a>
+        <a class="btn" id="btn-color" href="#download">Download App </a>
+      </nav>
+    </header>
+
+    <div class="loan-calculator">
+      <div class="top">
+        <h2>Loan Calculator</h2>
+
+        <form action="#">
+          <div class="group">
+            <div class="title">Amount</div>
+            <input type="text" value="30000" class="loan-amount" />
+          </div>
+
+          <div class="group">
+            <div class="title">Interest Rate</div>
+            <input type="text" value="8.5" class="interest-rate" />
+          </div>
+
+          <div class="group">
+            <div class="title">Tenure (in months)</div>
+            <input type="text" value="240" class="loan-tenure" />
+          </div>
+        </form>
+      </div>
+
+      <div class="result">
+        <div class="left">
+          <div class="loan-emi">
+            <h3>Loan EMI</h3>
+            <div class="value">123</div>
+          </div>
+
+          <div class="total-interest">
+            <h3>Total Interest Payable</h3>
+            <div class="value">1234</div>
+          </div>
+
+          <div class="total-amount">
+            <h3>Total Amount</h3>
+            <div class="value">12345</div>
+          </div>
+
+          <button class="calculate-btn">Calculate</button>
+        </div>
+
+        <div class="right">
+          <canvas id="myChart" width="400" height="400"></canvas>
+        </div>
+      </div>
+    </div>
+
+    <section class="footer">
+      <div class="main">
+        <div class="list list-1">
+          <h2>EMIBharo</h2>
+          <div class="comp-desc">
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sed assumenda ipsum doloribus numquam temporibus
+              officia accusantium quas reprehenderit</p>
+          </div>
+          <div class="social">
+            <a href="#"><i class='bx bxl-facebook'></i></a>
+            <a href="#"><i class='bx bxl-instagram-alt'></i></a>
+            <a href="#"><i class='bx bxl-twitter'></i></a>
+            <a href="#"><i class='bx bxl-youtube'></i></a>
+            <a href="#"><i class='bx bxl-linkedin'></i></a>
+          </div>
+        </div>
+
+        <div class="list list-2">
+          <h4>Company</h4>
+          <ul>
+            <li><a href="">About Us</a></li>
+            <li><a href="">Work with us</a></li>
+            <li><a href="">Partner with us</a></li>
+            <li><a href="">Lending Partners</a></li>
+
+          </ul>
+        </div>
+
+        <div class="list list-1">
+          <h4>Product</h4>
+          <ul>
+            <li><a href="">Personal Loan For Student</a></li>
+            <li><a href="">Personal Loan For Self-Employed</a></li>
+            <li><a href="">Personal Loan For Salaried</a></li>
+          </ul>
+        </div>
+
+        <div class="list list-2">
+          <h4>Legal</h4>
+          <ul>
+            <li><a href="">Terms & Conditions</a></li>
+            <li><a href="">Privacy Policy</a></li>
+            <li><a href="">Grievance Redressal</a></li>
+            <li><a href="">Security Centre</a></li>
+            <li><a href="">Corporate Info</a></li>
+          </ul>
+        </div>
+
+        <div class="list list-3">
+          <h4>Useful Links</h4>
+          <ul>
+            <li><a href="contact-page.html">Contact US</a></li>
+            <li><a href="">FAQ</a></li>
+            <li><a href="./blogs.html">Blogs</a></li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="footer-end">
+        <div class="end-text">
+          <p>Copyright &#169;2023 All rights reserved</p>
+        </div>
+        <div class="store">
+          <h4>Download Now</h4>
+          <div class="store-img">
+            <img src="images/ic-StoreBadge-GooglePlay.svg" alt="">
+            <img src="images/ic-StoreBadge-AppStore.svg" alt="">
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <script src="https://cdn.jsdelivr.net/npm/chart.js@3.6.2/dist/chart.min.js"></script>
+
+    <script src="./JS/index.js"></script>
+    <script src="./JS/product.js"></script>
+  </body>
+</html>
