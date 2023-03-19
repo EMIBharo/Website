@@ -1,0 +1,22 @@
+body{
+  background-color: #e6e4ff;
+}
+
+.top-div{
+  background: url('../images/policy.png');
+  text-align: center;
+  margin-bottom: 4rem;
+}
+
+.top-div h1{
+  padding: 7rem 0 3rem;
+  color: #000000;
+}
+
+.contents{
+  width: 80%;
+  place-items: center;
+  justify-content: center;
+  margin: 0 auto 5rem;
+  color: ##757575;
+}
