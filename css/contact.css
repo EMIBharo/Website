@@ -119,7 +119,7 @@ header img{
 
 
 .contact-section{
-  background-image: linear-gradient(rgba(4, 9, 30, 0.3), rgba(4, 20, 81, 0.3)), url(../images/contact-form-bg.jpg);
+  background-color: #e6e4ff;
   background-position: center;
   background-size: auto,cover,cover;
 }

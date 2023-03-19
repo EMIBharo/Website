@@ -5,7 +5,21 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <!--Primary meta tags -->
   <title>EMIBharo</title>
+  <meta name="title" content="EmiBharo">
+  <meta name="description" content="EMIBHARO is a platform that is ready to assist you with all your money troubles by providing instant money solutions.">
+
+
+  <!--Favicon-->
+  <link rel="shortcut icon" href="./images/favicon.jpg" type="image/svg+xml">
+
+
+   <!--preload images-->
+  <link rel="preload" as="image" href="./images/EMIBHARO Logo.png">
+  <link rel="preload" as="image" href="./images/">
+
   <link rel="stylesheet" href="./css/index.css">
 
   <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
@@ -18,15 +32,16 @@
 </head>
 
 <body>
-  <header class="shadow" id="header">
-    <a href="" class="logo" id="#logo">EMIBharo</a>
+  
+  <header class="" id="header">
+    <a href="./index.html" class="logo" id="#logo">EMIBharo</a>
 
-    <img src="./images/menu.png" alt="menu-icon" id="menu-icon">
-    <nav class="navbar text-color">
+    <i class="bx bx-menu" id="menu-icon"></i>
+    <nav class="navbar">
       <a href="./about.html">About</a>
       <a href="./product.html">Product</a>
       <a href="./blogs.html">Blogs</a>
-      <a href="./DLP.html">Become a partner</a>
+      <a href="/DLP.html">Become a partner</a>
       <a class="btn" id="btn-color" href="#download">Download App </a>
     </nav>
   </header>
@@ -34,24 +49,26 @@
   <!-- home section design -->
 
   <section class="home" id="home">
-    <div class="home-content">
-      <h4>Get a personal loan with us.</h4>
-      <h1>Spend Now,</h1>
-      <h3>Pay later.</h3>
-      <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Autem animi ipsum, minus sit reiciendis sapiente,
-        quisquam mollitia cumque obcaecati impedit natus.</p>
-      <div class="download-btn">
-        <a href="#" class="dwn-btn"><i class='bx bxl-play-store'></i> Download</a>
-        <a href="#" class="dwn-btn"><i class='bx bxl-apple'></i> Download</a>
+    <div class="home-container">
+      <div class="home-content">
+        <h4>Get a personal loan with us.</h4>
+        <h1>Spend Now,</h1>
+        <h3>Pay later.</h3>
+        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Autem animi ipsum, minus sit reiciendis sapiente,
+          quisquam mollitia cumque obcaecati impedit natus.</p>
+        <div class="download-btn">
+          <a href="#" class="dwn-btn"><i class='bx bxl-play-store'></i> Download</a>
+          <a href="#" class="dwn-btn"><i class='bx bxl-apple'></i> Download</a>
+        </div>
       </div>
-    </div>
 
-    <div class="top">
-      <div class="perspective">
-        <div class="card">
-          <div class="thumb">
-            <!-- <h2>EMIBHARO</h2>
+      <div class="top">
+        <div class="perspective">
+          <div class="float-card">
+            <div class="thumb">
+              <!-- <h2>EMIBHARO</h2>
             <a><img src=""></a> -->
+            </div>
           </div>
         </div>
       </div>
@@ -109,14 +126,14 @@
       </div>
 
       <div class="process-content">
-        <div class="heading-title">
-          <p class="sub-heading">Get a loan in just</p>
+        <div class="process-title">
+          <p class="sub-heading">Get a loan in</p>
           <h1 class="heading-1">Just Few Steps</h1>
         </div>
 
         <div class="process-steps">
           <p class="step">
-            <i class="fa-solid fa-circle-check"></i>Download the EMIBharo App
+            <a href=""><i class="fa-solid fa-circle-check"></i>Download the EMIBharo App</a>
           </p>
 
           <p class="step">
@@ -221,9 +238,14 @@
             doloremque deserunt eum nemo.
           </p>
 
-          <i class="bx bxs-quote-alt-left quote-icon"></i>
-
           <div class="details">
+            <li>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+            </li>
             <span class="name">Customer 1</span>
             <span class="job">Mumbai</span>
           </div>
@@ -237,9 +259,14 @@
             doloremque deserunt eum nemo.
           </p>
 
-          <i class="bx bxs-quote-alt-left quote-icon"></i>
-
           <div class="details">
+            <li>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+            </li>
             <span class="name">Customer 2</span>
             <span class="job">Pune</span>
           </div>
@@ -253,9 +280,15 @@
             doloremque deserunt eum nemo.
           </p>
 
-          <i class="bx bxs-quote-alt-left quote-icon"></i>
 
           <div class="details">
+            <li>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+            </li>
             <span class="name">Customer 3</span>
             <span class="job">Delhi</span>
           </div>
@@ -264,6 +297,33 @@
       <div class="swiper-button-next arrow-btn"></div>
       <div class="swiper-button-prev arrow-btn"></div>
       <div class="swiper-pagination"></div>
+    </div>
+  </section>
+
+  <section class="counter-section">
+    <div class="counters-container">
+      <div class="counter-div">
+        <div class="counter">
+          <h2><span data-count="15">0</span>L+</h2>
+          <h4>App Downloads</h4>
+        </div>
+
+        <div class="counter">
+          <h2><span data-count="70">0</span>L+</h2>
+          <h4>Loans Approved</h4>
+        </div>
+
+        <div class="counter">
+          <h2><span data-count="5">0</span>L+</h2>
+          <h4>Active users</h4>
+        </div>
+
+        <div class="counter">
+          <h2><span data-count="14">0</span>L+</h2>
+          <h4>Happy Users</h4>
+        </div>
+
+      </div>
     </div>
   </section>
 
@@ -319,9 +379,9 @@
       <div class="list list-3">
         <h4>Useful Links</h4>
         <ul>
-          <li><a href="./contact-page.html">Contact US</a></li>
+          <li><a href="contact-page.html">Contact US</a></li>
           <li><a href="">FAQ</a></li>
-          <li><a href="./blogs.html">Blogs</a></li>
+          <li><a href="">Blogs</a></li>
         </ul>
       </div>
     </div>
@@ -340,8 +400,7 @@
     </div>
   </section>
 
-  <script type="text/javascript"
-    src="https://cdnjs.cloudflare.com/ajax/libs/vanilla-tilt/1.8.0/vanilla-tilt.min.js"></script>
+  <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/vanilla-tilt/1.8.0/vanilla-tilt.min.js"></script>
 
   <!-- Swiper JS -->
   <script src="https://cdnjs.cloudflare.com/ajax/libs/Swiper/9.1.1/swiper-bundle.min.js"></script>
