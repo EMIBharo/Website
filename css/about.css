@@ -41,7 +41,7 @@ body {
   padding: 1.7rem 0 2rem;
   width: 100%;
   overflow: hidden;
-  background-color: var(--backgroundColor);
+  background-color: #e6e4ff;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
@@ -56,14 +56,14 @@ body {
 }
 
 .text{
-  padding: 2rem 2rem 5rem;
+  padding: 2rem 0 5rem;
 }
 
 .tagline h1{
   font-weight: 700;
   font-size: 3rem;
   line-height: 2.65rem;
-  color: #fff;
+  color: #000000;
   padding-bottom: 0.8rem;
 }
 
@@ -97,7 +97,7 @@ body {
   min-height: 100vh;
   margin: auto;
   padding-top: 30px;
-  background-color: #4070F4;
+  background-color: #83D1E7;
   text-align: center;
 }
 
