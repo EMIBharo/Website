@@ -41,7 +41,7 @@ body {
   padding: 1.7rem 0 2rem;
   width: 100%;
   overflow: hidden;
-  background-color: var(--backgroundColor);
+  background-color: #e6e4ff;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
@@ -63,7 +63,7 @@ body {
   font-weight: 700;
   font-size: 3rem;
   line-height: 2.65rem;
-  color: #fff;
+  color: #000000;
   padding-bottom: 0.8rem;
 }
 
