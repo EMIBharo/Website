@@ -77,6 +77,7 @@ body {
 .person {
   width: 123%;
   transform: translate(15%, 25px);
+  filter: drop-shadow(5px 5px 5px #000000);
 }
 
 .showcase-area .btn{
