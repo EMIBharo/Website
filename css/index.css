@@ -837,7 +837,7 @@ img {
 }
 
 .list .comp-desc p{
-  color: var(--white-color);
+  color: #fff;
   font-size: 0.7rem;
 }
 
