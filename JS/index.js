@@ -44,13 +44,13 @@ menuIcon.onclick = () => {
 
 
 
-VanillaTilt.init(document.querySelector(".card"), {
+VanillaTilt.init(document.querySelector(".float-card"), {
   max: 25,
   speed: 300
 });
 
 
-VanillaTilt.init(document.querySelectorAll(".card"));
+VanillaTilt.init(document.querySelectorAll(".float-card"));
 
 
 // Testimonials section
