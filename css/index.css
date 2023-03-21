@@ -935,6 +935,52 @@ img {
 
 /*=========Testimonial section end==========*/
 
+/* Download section */
+
+.download .process-container{
+  background-image: linear-gradient(to right, #827ebc, #9a97cd, #b3b0dd, #cccaee, #e6e4ff);
+  width: 95%;
+  justify-content: center;
+  place-items: center;
+  margin: auto;
+}
+
+.download-content{
+  align-items: center;
+  justify-content: center;
+  place-items: center;
+  margin: auto;
+  padding-right: 30px;
+}
+
+.download-content h1{
+  font-size: 3rem;
+}
+
+.download-content img{
+  width: 140px;
+}
+
+.download-content p{
+  font-size: 1rem;
+  margin-bottom: 2rem;
+}
+
+.phone-img2{
+  width: 400px;
+}
+
+
+@media (max-width: 750px) {
+
+  .download .process-container{
+    background-image: linear-gradient(to bottom, #827ebc, #9a97cd, #b3b0dd, #cccaee, #e6e4ff);
+  }
+}
+
+/* Download section end */
+
+
 /*------- counting section -----------*/
 
 
