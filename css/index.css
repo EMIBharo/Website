@@ -977,7 +977,7 @@ img {
     background-image: linear-gradient(to bottom, #827ebc, #9a97cd, #b3b0dd, #cccaee, #e6e4ff);
   }
 
-  .download-content p{
+  .download-content p, .download-content h1{
     padding-right: 20px;
   }
 
@@ -987,6 +987,15 @@ img {
 }
 
 @media (max-width: 450px) {
+
+  .download-content{
+    width: 100vw;
+  }
+
+  .download-content h1{
+    font-size: 2.3rem;
+  }
+
   .download .process-image{
     width: 90vw;
   }
