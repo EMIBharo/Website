@@ -976,11 +976,23 @@ img {
   .download .process-container{
     background-image: linear-gradient(to bottom, #827ebc, #9a97cd, #b3b0dd, #cccaee, #e6e4ff);
   }
+
+  .download-content p{
+    padding-right: 20px;
+  }
+
+  .download .process-image{
+    padding-bottom: 3rem;
+  }
 }
 
 @media (max-width: 450px) {
-  .download-content .process-image{
+  .download .process-image{
     width: 90vw;
+  }
+
+  .phone-img2{
+    width: 100%;
   }
 }
 
