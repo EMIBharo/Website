@@ -161,7 +161,7 @@ header {
   position: fixed;
   top: 0;
   left: 0;
-  width: 100%;
+  width: 100vw;
   padding: 1.2rem 7% 0.5rem;
   background: var(--bg-color);
   display: flex;
@@ -975,6 +975,12 @@ img {
 
   .download .process-container{
     background-image: linear-gradient(to bottom, #827ebc, #9a97cd, #b3b0dd, #cccaee, #e6e4ff);
+  }
+}
+
+@media (max-width: 450px) {
+  .download-content .process-image{
+    width: 90vw;
   }
 }
 
