@@ -9,7 +9,8 @@
   <!--Primary meta tags -->
   <title>EMIBharo</title>
   <meta name="title" content="EmiBharo">
-  <meta name="description" content="EMIBHARO is a platform that is ready to assist you with all your money troubles by providing instant money solutions.">
+  <meta name="description"
+    content="EMIBHARO is a platform that is ready to assist you with all your money troubles by providing instant money solutions.">
 
 
   <!--Favicon-->
@@ -24,10 +25,18 @@
   <!-- Swiper CSS -->
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Swiper/9.1.1/swiper-bundle.css" />
 
+  <!-- preload images -->
+  <link rel="preload" as="image" href="./images/EMIBHARO Logo.png">
+  <link rel="preload" as="image" href="./images/steps-section/steps-mobile.png">
+  <link rel="preload" as="image" href="./images/service-images/service-1.png">
+  <link rel="preload" as="image" href="./images/service-images/service-2.png">
+  <link rel="preload" as="image" href="./images/service-images/service-3.png">
+
+
 </head>
 
 <body>
-  
+
   <header class="" id="header">
     <a href="./index.html" class="logo" id="#logo">EMIBharo</a>
 
@@ -108,6 +117,68 @@
           <img src="images/logos/logo2.png" alt="">
         </div>
       </div>
+    </div>
+  </section>
+
+  <section class="service-section">
+    <div class="heading-title">
+      <h3 class="heading-1">Quick and easy cash with an instant loan.</h3>
+    </div>
+    <div class="service-container swiper mySwiper-service">
+      <div class="wrapper swiper-wrapper">
+        <div class="slide swiper-slide">
+          <div class="horizontal-card">
+            <div class="horizontal-card-image">
+              <img src="images/service-images/service-1.png" alt="">
+            </div>
+
+            <div class="horizontal-card-content">
+              <div class="horizontal-card-head">
+                <h3 class="horizontal-card-btn">Insta Loan</h3>
+              </div>
+              <h2 class="horizontal-card-title">Instant Credit. Easy Life.</h2>
+              <p class="horizontal-card-desc" id="horizontal-card-desc">Get a loan at - Anywhere, anytime.
+              </p>
+            </div>
+
+          </div>
+        </div>
+        <div class="slide swiper-slide">
+          <div class="horizontal-card">
+            <div class="horizontal-card-image">
+              <img src="images/service-images/service-2.png" alt="">
+            </div>
+
+            <div class="horizontal-card-content">
+              <div class="horizontal-card-head">
+                <h3 class="horizontal-card-btn">Bill Payments</h3>
+              </div>
+              <h2 class="horizontal-card-title">Pay with ease</h2>
+              <p class="horizontal-card-desc" id="horizontal-card-desc">Pay bills, receive real-time payment updates,
+                download receipts, and examine transaction history.
+              </p>
+            </div>
+
+          </div>
+        </div>
+        <div class="slide swiper-slide">
+          <div class="horizontal-card">
+            <div class="horizontal-card-image">
+              <img src="images/service-images/service-3.png" alt="">
+            </div>
+
+            <div class="horizontal-card-content">
+              <div class="horizontal-card-head">
+                <h3 class="horizontal-card-btn">Insta Loan</h3>
+              </div>
+              <h2 class="horizontal-card-title">Elite Clientele</h2>
+              <p class="horizontal-card-desc" id="horizontal-card-desc">Customers satisfaction is our priority.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="swiper-pagination-center" id="swiper-pagination-center"></div>
     </div>
   </section>
 
@@ -399,7 +470,8 @@
     </div>
   </section>
 
-  <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/vanilla-tilt/1.8.0/vanilla-tilt.min.js"></script>
+  <script type="text/javascript"
+    src="https://cdnjs.cloudflare.com/ajax/libs/vanilla-tilt/1.8.0/vanilla-tilt.min.js"></script>
 
   <!-- Swiper JS -->
   <script src="https://cdnjs.cloudflare.com/ajax/libs/Swiper/9.1.1/swiper-bundle.min.js"></script>
