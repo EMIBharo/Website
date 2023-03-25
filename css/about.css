@@ -60,18 +60,33 @@ body {
 }
 
 .tagline h1{
+  margin-top: 1rem;
   font-weight: 700;
   font-size: 3rem;
   line-height: 2.65rem;
-  color: #000000;
-  padding-bottom: 0.8rem;
+  color: #00113f;
+  padding: 1rem 0rem;
 }
 
 .lorem{
-  color: #757575;
+  justify-content: center;
+  color: #3a2f6c;
   font-size: 18px;
   font-weight: 500;
+  line-height: 1.5;
   margin-bottom: 1rem;
+}
+
+.lorem p:nth-child(1) {
+  padding-bottom: 0.5rem;
+}
+
+.lorem p:nth-child(2) {
+  padding-bottom: 0.5rem;
+}
+
+.lorem p:nth-child(3) {
+  padding-bottom: 0.5rem;
 }
 
 .person {

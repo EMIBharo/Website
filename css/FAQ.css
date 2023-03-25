@@ -1,0 +1,119 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.question{
+  color: #00013a;
+}
+
+.accordion{
+  margin: 0 auto;
+  padding: 40px;
+  width: 1000px;
+}
+
+.accordion-item{
+  border-bottom: 1px solid #e5e5e5;
+}
+
+.accordion-item button{
+  position: relative;
+  text-align: left;
+  display: block;
+  width: 100%;
+  padding: 0.6rem 0;
+  margin-bottom: 1rem;
+  color: #7288a2;
+  font-size: 1.2rem;
+  border-radius: 12px;
+  border: none;
+  outline: none;
+  background-color: #fff;
+}
+
+.accordion-item button:hover{
+  cursor: pointer;
+}
+
+.accordion-content p{
+  font-size: 1rem;
+  line-height: 1.5;
+  padding-bottom: 30px;
+}
+
+.accordion-btn{
+  background-color: #ffffff !important;
+  display: flex !important;
+  justify-content: space-between !important;
+}
+
+.accordion-btn .angle-icon i{
+  color: #00013a;
+  font-size: 1.5rem;
+  font-weight: 800;
+}
+
+.not-answer{
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+}
+
+.not-answer p{
+  margin-top: 2rem;
+  padding: 0.5rem;
+  font-size: 1.2rem;
+}
+.request-submission{
+  padding: 0.7rem;
+}
+
+.not-answer .request-submission a{
+  text-decoration: none;
+  padding: 0.5rem;
+  font-size: 1rem;
+  font-weight: 800;
+  color: #00013a;
+}
+
+.not-answer .request-submission a:hover{
+  box-shadow: 0 0 2.5rem rgba(0,0,0,0.2);
+}
+
+@media (max-width:768px) {
+  html,body{
+    overflow-x: hidden !important;
+  }
+
+  .accordion{
+    width: 100%;
+  }
+
+  .question h3{
+    width:90%;
+  }
+}
+
+@media (max-width:500px) {
+  .question{
+    margin-right: 1rem;
+  }
+  .accordion-item button{
+    font-size: 0.8rem;
+  }
+  .accordion-btn .angle-icon i{
+    font-size: 1rem;
+  }
+
+  .accordion-content p{
+    font-size: 0.8rem;
+    line-height: 1.2;
+    padding-bottom: 20px;
+  }
+
+  .not-answer p,.not-answer .request-submission a{
+    font-size: 0.9rem;
+  }
+}

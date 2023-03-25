@@ -6,53 +6,33 @@ menuIcon.onclick = () => {
   navbar.classList.toggle('active');
 }
 
-function focusFunc() {
-  let parent = this.parentNode;
-  parent.classList.add("focus");
-}
+//working of contact page
 
-function blurFunc() {
-  let parent = this.parentNode;
-  if (this.value == "") {
-    parent.classList.remove("focus");
-  }
-}
-
-inputs.forEach((input) => {
-  input.addEventListener("focus", focusFunc);
-  input.addEventListener("blur", blurFunc);
-});
-
-
-// Contact working form
 
 function validate() {
   let name = document.querySelector(".name");
   let email = document.querySelector(".email");
-  let phoneNo = document.querySelector(".phone-no");
+  let subject = document.querySelector(".subject");
   let msg = document.querySelector(".message");
   let sendBtn = document.querySelector(".send-btn");
 
-
   sendBtn.addEventListener("click", (e) => {
     e.preventDefault();
-    if (name.value == "" || email.value == "" ||phoneNo.value == "" || msg.value == "") {
+    if (name.value == "" || email.value == "" || subject.value == "" || msg.value == "") {
       emptyerror();
     } else {
-      sendmail(name.value, email.value,phoneNo.value, msg.value);
+      sendmail(name.value, email.value,subject.value, msg.value);
       success();
-
     }
   });
 }
 validate();
 
-
-function sendmail(name, email,phoneNo,msg) {
+function sendmail(name, email,subject, msg) {
   emailjs.send("service_8ve0kgq","template_6gdgoid",{
     from_name: email,
     to_name: name,
-    ph_number: phoneNo,
+    to_subject: subject,
     message: msg,
     });
 }
@@ -72,3 +52,4 @@ function success() {
     icon: "success",
   });
 }
+
