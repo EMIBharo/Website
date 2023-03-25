@@ -20,3 +20,7 @@ body{
   margin: 0 auto 5rem;
   color: ##757575;
 }
+
+.contents p{
+  line-height: 30px;
+}
