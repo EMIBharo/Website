@@ -362,12 +362,12 @@ img {
 
 .lending_partners{
   align-items: center;
-  background-color: var(--light-blue-color);
+  /* background-color: var(--light-blue-color); */
 }
 
 .slide-track{
   padding: 2rem;
-  background-color: #09004a;
+  background-color: #ffffff;
 }
 
 .slider{
@@ -414,7 +414,7 @@ img {
 /*=============== services-section ======*/
 
 .service-section{
-  background-color: var(--light-blue-color);
+  /* background-color: var(--light-blue-color); */
 }
 
 .service-container{
@@ -425,7 +425,6 @@ img {
 .horizontal-card{
   background-color: #fff;
   box-shadow: 0 0 2.5rem rgba(0,0,0,0.28);
-  border-radius: 15px;
   display: flex;
   flex-direction: row;
 }
@@ -433,7 +432,6 @@ img {
 .horizontal-card-image{
   height:auto;
   overflow: hidden;
-  border-radius: 15px;
 }
 
 .horizontal-card-image img{
@@ -569,6 +567,7 @@ img {
   }
 }
 
+
 .wrapper,
 .slide{
   position: relative;
@@ -603,24 +602,95 @@ img {
 
 /*=============== service - steps section Ends ======*/
 
+/*===============  criteria- steps section ======*/
+
+.criteria_section{
+  background-color: #fff;
+  padding: 90px 10%;
+}
+
+.criteria_section .criteria_container{
+ width: 100%;
+ padding: 2rem 3rem;
+ height: auto;
+ display: grid;
+ grid-template-columns: repeat(3,1fr);
+ grid-gap: 4rem;
+}
+
+.criteria_section .criteria_container .criteria-card{
+  justify-content: center;
+  text-align: center;
+  padding: 2rem 2rem;
+  cursor: pointer;
+  transition: all .03s ease;
+}
+
+.criteria-card h4{
+  font-size: 1.2rem;
+  margin: 7px 0 5px 0;
+}
+
+.criteria-card p{
+  font-size: 1rem;
+  line-height: 1.5rem;
+}
+
+.criteria-card:hover{
+  border: 1px solid rgba(51, 51, 51, 0.096);
+  border-radius: 12px;
+  box-shadow: -5px 5px 15px rgba(51, 51, 51, 0.11);
+}
+
+@media only screen and (max-width:1080px) {
+  .criteria_section .criteria_container .criteria-card{
+    padding: 2rem 1.2rem;
+  }
+}
+
+@media only screen and (max-width:900px) {
+  .criteria_section .criteria_container{
+    grid-template-columns: repeat(2,1fr);
+    grid-gap: 2.5rem;
+   }
+
+   .criteria_section .criteria_container .criteria-card{
+    padding: 2rem 1rem;
+  }
+}
+
+
+@media only screen and (max-width:550px){
+  .criteria_section .criteria_container{
+    grid-template-columns: repeat(1,1fr);
+    grid-gap: 2rem;
+   }
+}
+
+/*===============  criteria- steps section ======*/
+
 /*=============== process - steps section ======*/
 
 /* .process{
 } */
 .process-container{
   display: grid;
-  background-color: var(--light-blue-color);
+  /* background-color: var(--light-blue-color); */
   grid-template-columns: repeat(auto-fit, minmax(17rem, auto));
   border-radius: 20px;
 }
 .process-content{
-  padding: 2rem 0rem 2rem 4rem;
+  padding: 0rem 0rem 2rem 4rem;
 }
 
 .process-mobile-img{
   max-width: 452px;
   width: 100%;
   height: fit-content;
+}
+
+.process-content .process p{
+  width:fit-content;
 }
 
 .process-image{
@@ -634,16 +704,17 @@ img {
 }
 
 .step{
-  margin-top: 3rem;
+  margin-top: 1rem;
   color: var(--bg-color);
   margin-bottom: 1.5rem;
   font-size: 1rem;
+  font-weight: 700;
 }
 
-.fa-circle-check{
+.fa-angle-right{
   font-size: 1.2rem;
   margin-right: 0.5rem;
-  color: rgb(14, 218, 75)
+  color: rgb(0, 4, 255)
 }
 .apply-heading{
   text-align: center;
@@ -841,7 +912,7 @@ img {
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  background-color: #e6e4ff;
+  /* background-color: #e6e4ff; */
 }
 .testimonial {
   position: relative;
@@ -1012,11 +1083,11 @@ img {
 
 
 .counter-section{
-  background-color: var(--light-blue-color);
+  /* background-color: var(--light-blue-color); */
 }
 
 .counters-container{
-  margin: 0rem 0rem -6rem;
+  margin: 0rem 0rem -7rem;
   padding: 1.5rem;
   background:var(--bg-gradient-amin);
   color: var(--white-color);
