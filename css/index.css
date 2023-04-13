@@ -71,6 +71,12 @@ body {
   color: var(--blue-color)
 }
 
+@media (max-width: 576px){
+  .heading-1{
+    font-size: 24px;
+  }
+}
+
 /*--------- Reusable headings end --------*/
 
 
@@ -362,6 +368,8 @@ img {
 
 .lending_partners{
   align-items: center;
+  padding-left: 0;
+  padding-right: 0;
   /* background-color: var(--light-blue-color); */
 }
 
@@ -379,9 +387,10 @@ img {
   animation: scroll 40s linear infinite;
   display: flex;
   width: calc(150px * 20);
+  background-color: var(--bg-color);
 }
 
-.slider .slide{
+.lending_partners .slider .slide{
   width: 150px;
   margin: 0rem 3rem; 
 }
@@ -414,7 +423,7 @@ img {
 /*=============== services-section ======*/
 
 .service-section{
-  /* background-color: var(--light-blue-color); */
+  background-color: var(--light-blue-color);
 }
 
 .service-container{
@@ -606,7 +615,7 @@ img {
 
 .criteria_section{
   background-color: #fff;
-  padding: 90px 10%;
+  padding: 60px 10%;
 }
 
 .criteria_section .criteria_container{
@@ -665,6 +674,14 @@ img {
     grid-template-columns: repeat(1,1fr);
     grid-gap: 2rem;
    }
+}
+
+@media (max-width: 400px){
+  .criteria_section{
+    padding-left: 0;
+    padding-right: 0;
+    padding-bottom: 30px;
+  }
 }
 
 /*===============  criteria- steps section ======*/
@@ -765,6 +782,17 @@ img {
   }
 }
 
+@media (max-width: 450px){
+  .process-content:not(.download-content){
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-bottom: 0;
+  }
+  .process-content .process p{
+    text-align: justify;
+  }
+}
+
 /* <=======Section end========> */
 
 /* <======== blog section ======> */
@@ -820,6 +848,10 @@ img {
   padding: 20px 10px;
   display: flex;
   flex-direction: column;
+}
+
+.blog-text h3{
+  font-weight: 500;
 }
 
 .blog-text span{
