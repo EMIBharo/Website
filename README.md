@@ -3,3 +3,5 @@ It contains complete code of EMI Bharo Website. It is coded by three undergrad s
 
 
 ### Website is live, visit: https://www.emibharo.com/
+
+### It is also available at https://emibharo.github.io/Website/
