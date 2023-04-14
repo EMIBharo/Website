@@ -190,30 +190,6 @@ section.become-partner{
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
   grid-gap: 5rem;
-}
-
-section.become-partner .rows h1{
-  margin: 2rem 0;
-  font-size: 2rem;
-  letter-spacing: 1px;
-  position: relative;
-}
-
-section.become-partner .rows h1::before {
-  content: "";
-  position: absolute;
-  height: 4px;
-  width: 120px;
-  left: 0;
-  bottom: -10px;
-  background-color: #0404fc;
-}
-
-section.become-partner .rows p{
-  line-height: 30px;
-}
-
-section.become-partner{
   background-image: url('../images/DLP.png');
   position: relative;
   background-repeat: no-repeat;
@@ -222,19 +198,53 @@ section.become-partner{
   height: 100%;
 }
 
+section.become-partner .rows{
+  display: flex;
+  flex-direction: row;
+}
+
+section.become-partner .rows .item{
+  width: 50%;
+}
+
+section.become-partner div h1:not(.form-heading){
+  font-size: 40px;
+  margin-bottom: 1.5rem;
+  position: relative;
+  margin-top: 2rem;
+}
+
+section.become-partner div h1:not(.form-heading)::before{
+  content: "";
+  position: absolute;
+  bottom: 0;
+  /* z-index: 1000; */
+  background-color: #0404fc;
+  height: 8px;
+  width: 30%;
+}
+
 section.become-partner::before{
   position: absolute;
 }
 
 form{
-  padding: 1rem 1.25rem 0;
-  padding-bottom: 2rem;
+  padding: 2.5rem 1.25rem 1.8rem;
+  /* padding-bottom: 2rem; */
   border-radius: 16px;
   overflow: hidden;
   background: #e6e4ff;
-  -webkit-box-shadow: 0 0 5px 2px #000000;
-  -moz-box-shadow: 0 0 5px 2px #000000;
-  box-shadow: 0 0 5px 2px #000000;
+}
+
+form h1{
+  font-weight: 700; 
+  color: #00014f; 
+  font-size: 32px;
+}
+
+form p{
+  color: #010058;
+  margin-bottom: 1.5rem;
 }
 
 form div,form input, form label{
@@ -250,15 +260,13 @@ form div,form input, form label{
 form input {
   margin-bottom: 10px;
   /* border: 1px solid #ccc; */
-  border-radius: 3px;
-}
-
-form input {
+  border-radius: 6px;
+  padding: 10px;
+  height: 45px;
   width: calc(100% - 10px);
-  padding: 5px;
 }
 
-form .item input:hover,{
+form .item input:hover, textarea:hover{
   border: 1px solid transparent;
   box-shadow: 0 0 3px 0  #669999;
   color: #669999;
@@ -283,6 +291,14 @@ form .item div{
   column-gap: 1rem;
 }
 
+textarea{
+  width: 100%;
+  border-radius: 6px;
+  font-size: 14px;
+  font-weight: 400;
+  padding: 20px 10px;
+}
+
 form .item div input[type=checkbox]{
   width: 20px;
 }
@@ -296,9 +312,10 @@ form h2{
 }
 
 form .btn-block {
-  text-align: center;
+  /* text-align: center;
   justify-content: center;
-  margin: 30px auto 0;
+  margin: 30px auto 0; */
+  margin-top: 1rem;
 }
 
 form button {
@@ -321,10 +338,9 @@ form button:hover {
     margin: 0;
   }
 
-  section.become-partner .rows{
+  /* section.become-partner .rows{
     width: 95vw;
-    padding: 2rem 0;
-  }
+  } */
 
   form{
     margin: 0;
@@ -336,8 +352,15 @@ form button:hover {
   form .colums {
     flex-direction: column;
   }
-  form .colums div {
+  /* form .colums div {
     width: 96%;
+  } */
+  section.become-partner .rows{
+    flex-direction: column;
+  }
+  
+  section.become-partner .rows .item{
+    width: 100%;
   }
 }
 
