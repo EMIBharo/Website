@@ -144,20 +144,19 @@ div.button{
     /* text-decoration: none; */
     transition: 0.5s;
     padding: 5px 15px;
-  font-size: 16px;
-  background: linear-gradient(135deg, #ff8e32, #ff5263);
-  border: none;
-  border-radius: 10px;
-  color: white;
-  cursor: pointer;
-
+    font-size: 16px;
+    background: linear-gradient(135deg, #ff8e32, #ff5263);
+    border: none;
+    border-radius: 10px;
+    color: white;
+    cursor: pointer;
 }
 
 
 .btn2:hover{
-    background-color: var(--second-color);
     border: none;
     color: #fff;
+    background-image: linear-gradient(to right,  #00008b,  #00008b, #001379, #001965, #001a4e, #051937);
 }
 
 .post-filter{
