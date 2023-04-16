@@ -77,6 +77,25 @@ body {
   }
 }
 
+.scroll-top{
+  position: fixed;
+  bottom: -100%;
+  right: 1.5rem;
+}
+
+.scroll-top .bx{
+  padding: 8px;
+  font-size: 1.3rem;
+  color:rgb(255, 255, 255);
+  background: var(--bg-gradient-amin);
+  border-radius: 0.2rem;
+}
+
+.scroll-active{
+  bottom: 2rem;
+  transition: 0.3s;
+}
+
 /*--------- Reusable headings end --------*/
 
 
