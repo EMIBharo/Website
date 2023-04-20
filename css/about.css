@@ -77,6 +77,10 @@ body {
   margin-bottom: 1rem;
 }
 
+.lorem p{
+  text-align: justify;
+}
+
 .lorem p:nth-child(1) {
   padding-bottom: 0.5rem;
 }
