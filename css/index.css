@@ -250,6 +250,7 @@ header {
 .home-content p {
   line-height: 1.5;
   font-size: 1rem;
+  text-align: justify;
 }
 
 .top {
@@ -1091,6 +1092,16 @@ img {
   }
 }
 
+@media(max-width: 500px){
+  .download-content h1{
+    font-size: 25px;
+  }
+  .process-content{
+    padding-left: 50px;
+    padding-right: 10px;
+  }
+}
+
 @media (max-width: 450px) {
 
   .download-content{
@@ -1458,6 +1469,10 @@ img {
     text-align: center;
   }
 
+  .home-content h1{
+    font-size: 28px;
+  }
+
   .home-content p {
     margin: 0rem 1rem;
   }
@@ -1486,7 +1501,7 @@ img {
   }
 
   .home-content p {
-    margin: 0px 2rem;
+    /* margin: 0px 2rem; */
     font-size: 0.7rem;
   }
 
