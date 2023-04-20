@@ -224,6 +224,10 @@ section.become-partner div h1:not(.form-heading)::before{
   width: 30%;
 }
 
+section.become-partner div p:not(.form-para){
+  text-align: justify;
+}
+
 section.become-partner::before{
   position: absolute;
 }
@@ -233,7 +237,7 @@ form{
   /* padding-bottom: 2rem; */
   border-radius: 16px;
   overflow: hidden;
-  background: #e6e4ff;
+  background: #7661FF;
 }
 
 form h1{
@@ -292,7 +296,7 @@ form .item div{
 }
 
 textarea{
-  width: 100%;
+  width: calc(100% - 10px);
   border-radius: 6px;
   font-size: 14px;
   font-weight: 400;
@@ -349,18 +353,72 @@ form button:hover {
 }
 
 @media (max-width: 500px) {
-  form .colums {
-    flex-direction: column;
+
+  .top-div h3{
+    font-size: 29px;
   }
-  /* form .colums div {
-    width: 96%;
-  } */
+
+  hr{
+    width: 20%;
+    border-width: 8px;
+  }
+
+  .top-div p{
+    font-size: 16px;
+  }
+  
   section.become-partner .rows{
     flex-direction: column;
+  }
+
+  section.become-partner div h1:not(.form-heading){
+    font-size: 25px;
+  }
+
+  section.become-partner div h1:not(.form-heading)::before{
+    content: "";
+    position: absolute;
+    bottom: 0;
+    /* z-index: 1000; */
+    background-color: #0404fc;
+    height: 3px;
+    width: 25%;
+  }
+
+  section.become-partner div p:not(.form-para){
+    font-size: 14px;
   }
   
   section.become-partner .rows .item{
     width: 100%;
+  }
+
+  form .colums {
+    flex-direction: column;
+  }
+
+  form h1{
+    font-size: 23px;
+  }
+
+  form p{
+    font-size: 14px;
+  }
+
+  form .item{
+    margin: 4px 0;
+  }
+
+  form input{
+    margin-bottom: 5px;
+    border-radius: 4px;
+    height: 35px;
+    padding: 5px 10px;
+  }
+  textarea{
+    border-radius: 4px;
+    height: 90px;
+    padding: 10px;
   }
 }
 
