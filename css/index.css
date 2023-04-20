@@ -77,25 +77,6 @@ body {
   }
 }
 
-.scroll-top{
-  position: fixed;
-  bottom: -100%;
-  right: 1.5rem;
-}
-
-.scroll-top .bx{
-  padding: 8px;
-  font-size: 1.3rem;
-  color:rgb(255, 255, 255);
-  background: var(--bg-gradient-amin);
-  border-radius: 0.2rem;
-}
-
-.scroll-active{
-  bottom: 2rem;
-  transition: 0.3s;
-}
-
 /*--------- Reusable headings end --------*/
 
 
@@ -727,6 +708,7 @@ img {
 
 .process-content .process p{
   width:fit-content;
+  text-align: justify;
 }
 
 .process-image{
@@ -895,6 +877,7 @@ img {
   display: -webkit-box;
   -webkit-line-clamp: 3;
   -webkit-box-orient: vertical;
+  text-align: justify;
   overflow: hidden;
   text-overflow: ellipsis;
   margin: 20px 0px;
@@ -992,7 +975,7 @@ img {
   width: 100%;
 }
 .slide p:not(#horizontal-card-desc){
-  text-align: center;
+  text-align: justify;
   padding: 0px 100px;
   font-size: 1rem;
   font-weight: 400;
