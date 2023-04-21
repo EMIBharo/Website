@@ -145,7 +145,7 @@ body {
 
 /*--------- Buttons End -------------*/
 
-a,li{
+a,li:not(.ol-li){
   list-style: none;
   list-style-type: none;
   text-decoration: none;
