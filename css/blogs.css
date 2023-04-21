@@ -25,7 +25,7 @@ a{
     text-decoration: none;
 }
 
-li{
+li:not(.ol-li){
     list-style: none;
 }
 
